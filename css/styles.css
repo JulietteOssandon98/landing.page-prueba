@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+.header {
+    background: #2e2e2e;
+}
+
+.header .navbar {
+    background: #2e2e2e;
+}
+
+.header .navbar .navbar-brand {
+    color: #fff;
+}
+
+.header .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.header .navbar-nav .nav-link:hover {
+    color: orange;
+}
+
+
+.piedepagina {
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #000000;
+    height: 50px;
+}
