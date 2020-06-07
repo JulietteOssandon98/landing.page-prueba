@@ -2,11 +2,17 @@ body {
     margin: 0;
 }
 .header {
-    background: #2e2e2e;
+    background: #ffffff;
 }
 
 .header .navbar {
-    background: #2e2e2e;
+    background: #a634d3;
+}
+
+#nastysweet {
+    font-size: 2em;
+    font-family: raleway;
+    font-style: italic;
 }
 
 .header .navbar .navbar-brand {
@@ -18,14 +24,123 @@ body {
 }
 
 .header .navbar-nav .nav-link:hover {
-    color: orange;
+    color: rgb(68, 0, 77);
 }
 
+.container2 {
+    max-width: 450px;
+    height: auto;
+    background-color: #EFEFEF;
+    margin: 2% auto;
+    padding-bottom: 1rem;
+}
+
+.form-top {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 1rem;
+    border-top: solid 4rem rgb(224, 43, 224);
+    margin-bottom: 1rem;
+}
+
+.form-top h2 {
+    font-weight: bold;
+    color: #cac8c8;
+    font-size: 18px;
+}
+
+h2 span {
+    color: rgb(198, 55, 226);
+}
+
+.form-reg {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn_form {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.input, .btn_submit {
+    background-color: #efefef;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: none;
+    border-bottom: solid #c8c8c8 2rem;
+    transition: all 5s;
+}
+.input:focus {
+    border-bottom: solid rgb(243, 83, 216) 2rem;
+}
+
+.btn_submit {
+    width: 40%;
+    border-bottom: none;
+    background-color: #cb2be0;
+    color: white;
+}
+
+.btn_submit:hover {
+    background-color: #b008e4;
+}
 
 .piedepagina {
     float: left;
     box-sizing: border-box;
     width: 100%;
-    background-color: #000000;
-    height: 50px;
+    background-color: #9918a5;
+    height: 10em;
+    text-align: center;
 }
+
+h3 span #text {
+    color: #ffffff;
+    background-color: #e860f5;
+}
+
+#contacto #mail {
+    color: #e2e2e2;
+    font-family: raleway;
+    font-size: 15px;
+}
+
+span {
+    color: #ffffff;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+#frase {
+    text-align: center;
+    font-size: 25px;
+    font-family: raleray;
+    color: #c8c8c8;
+}
+
+.linkinsta {
+    color: #6e04a0;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 1920px) {
+    body {
+      margin: 100px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    body {
+      margin: 80px;
+    }
+  }
+@media only screen and (max-width: 360px) {
+    body {
+      margin: 20px;
+    }
+  }
